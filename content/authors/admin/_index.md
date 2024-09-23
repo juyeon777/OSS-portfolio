@@ -6,8 +6,8 @@ title: 박주연
 name_pronunciation: Park Ju Yeon
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+#first_name: Shiung Wu
+#last_name: Chien
 
 # Status emoji
 status:
