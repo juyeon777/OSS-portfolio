@@ -21,7 +21,7 @@ role: Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: GenCoin
+  - name: Jeonbuk Univ
     url: https://www.example.com/
 
 # Social network links
