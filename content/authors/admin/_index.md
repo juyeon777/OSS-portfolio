@@ -21,7 +21,7 @@ role: Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Jeonbuk Univ
+  - name: Jeonbuk Univ.
     url: [https://csai.jbnu.ac.kr/csai/index.do]
 
 # Social network links
