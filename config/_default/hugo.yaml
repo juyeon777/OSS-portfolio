@@ -10,7 +10,7 @@ baseURL: 'https://juyeon777.github.io/OSS-portfolio/' # Website URL
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en
+defaultContentLanguage: ko
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
