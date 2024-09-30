@@ -5,7 +5,7 @@ date: 2024-09-30
 type: landing
 
 sections:
-  - block: contact
+  - block: collection
     content:
       title: Contact
       text: |-

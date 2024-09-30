@@ -5,12 +5,12 @@ date: 2024-09-30
 type: landing
 
 sections:
-  - block: contact
+  - block: collection
     content:
       title: Contact
       text: |-
         <br> <span style="font-size:95%"> contact me.</span> <br>
-      email: okk1829(at)gmail.com
+      email: okk1829gmail.com
 
       directions: 
     
