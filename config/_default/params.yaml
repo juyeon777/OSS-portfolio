@@ -17,8 +17,8 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo résumé theme powered by Hugo Blox Builder.'
+    org_name: 'Ju Yeon'
+    description: 'JBNU student'
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
