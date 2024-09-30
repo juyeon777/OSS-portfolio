@@ -11,6 +11,6 @@ sections:
   - block: features
     content:
       title: 
-      text: <br><span style="font-size:125%">주 관심분야는 front-end, back-end, database입니다.</span>
+      text: <br><span style="font-size:95%">주 관심분야는 front-end, back-end, database입니다.</span>
 
 ---

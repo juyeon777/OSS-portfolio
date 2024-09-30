@@ -11,6 +11,6 @@ sections:
   - block: features
     content:
       title: 
-      text: <br><span style="font-size:125%">My main areas of interest are front-end, back-end and databases.</span>
+      text: <br><span style="font-size:95%">My main areas of interest are front-end, back-end and databases.</span>
 
 ---
