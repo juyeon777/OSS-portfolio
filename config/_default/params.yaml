@@ -40,6 +40,8 @@ header:
     show_day_night: true
     show_search: true
     highlight_active_link: false
+    logo:
+      text: "Ju Yeon"
 
 # Site footer
 footer:
