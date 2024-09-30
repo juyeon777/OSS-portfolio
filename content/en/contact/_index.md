@@ -9,8 +9,8 @@ sections:
     content:
       title: Contact
       text: |-
-        <br> <span style="font-size:95%">contact me.</span> <br>
-      email: okk1829@gmail.com
+        <br> <span style="font-size:95%"> contact me.</span> <br>
+      email: okk1829(at)gmail.com
 
       directions: 
     

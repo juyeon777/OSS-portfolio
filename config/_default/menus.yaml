@@ -6,7 +6,8 @@
 main:
   - name: contact
     url: contact
-    weight: 100
+    weight: 700
+
 #  - name: Blog
 #    url: blog/
 #    weight: 20
