@@ -7,7 +7,7 @@ type: landing
 sections:
   - block: contact
     content:
-      title: contact
+      title: Contact
       text: |-
         <br> <span style="font-size:95%">contact me.</span> <br>
       email: okk1829@gmail.com
