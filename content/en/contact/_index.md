@@ -12,8 +12,11 @@ design:
 # Page sections
 sections:
   - block: contact
-    id: section-1
+    id: header
     content:
       title: contact
+      subtitle: contact
       text: contact me
+      email: okk1829@gmail.com
+
 ---
