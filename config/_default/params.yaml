@@ -36,7 +36,7 @@ header:
     enable: true
     align: c
     fixed_to_top: true
-    show_theme_chooser:true
+    show_theme_chooser: true
     show_logo: true
     show_language: true
     show_day_night: true
