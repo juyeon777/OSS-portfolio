@@ -45,6 +45,13 @@ education:
     #   url: 'https://example.com'
 
 work:
+  - position: 학부 연구생
+    company_name: 전북대학교 컴퓨터비전 연구실
+    company_url: ''
+    company_logo: ''
+    date_start: 2024-01-31
+    date_end: ''
+    
   - position: 홍보국장
     company_name: 제2대 컴퓨터인공지능학부 학생회
     company_url: 'https://csai.jbnu.ac.kr/csai/index.do'

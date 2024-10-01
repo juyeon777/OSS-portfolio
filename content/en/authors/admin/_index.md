@@ -45,13 +45,20 @@ education:
 #       url: 'https://example.com'
 
 work:
+  - position: Undergraduate Research Student
+    company_name: Jeonbuk National University Computer Vision Lab.
+    company_url: ''
+    company_logo: ''
+    date_start: 2024-01-31
+    date_end: ''
+
   - position: Director of Public Relations
     company_name: The 2nd Faculty of Computer and Artificial Intelligence Student Council
     company_url: 'https://csai.jbnu.ac.kr/csai/index.do'
     company_logo: ''
     date_start: 2023-11-20
     date_end: 2024-12-26
-    
+
   - position: Public Relations Officer
     company_name: The 1st Faculty of Computer and Artificial Intelligence Student Council
     company_url: 'https://csai.jbnu.ac.kr/csai/index.do'
