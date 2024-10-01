@@ -43,7 +43,8 @@ education:
 #     button:
 #       text: 'Read Thesis'
 #       url: 'https://example.com'
-# work:
+
+work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
     company_url: ''
