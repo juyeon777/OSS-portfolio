@@ -102,11 +102,11 @@ skills:
       - name: C
         description: ''
         percent: 100
-        icon: devicon/rstudio
+        icon: devicon/c
       - name: C++
         description: ''
         percent: 40
-        icon: devicon/pytorch
+        icon: devicon/c++
   # - name: Hobbies
   #   color: '#eeac02'
   #   color_border: '#f0bf23'
