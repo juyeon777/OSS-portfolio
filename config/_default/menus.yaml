@@ -17,6 +17,10 @@ main:
     url: research
     weight: 300
 
+  - name: etc
+    url: etc
+    weight: 400
+
 
   - name: contact
     url: contact
