@@ -16,6 +16,10 @@ main:
     name: club
     url: club
     weight: 210
+  - parent: activity
+    name: experience
+    url: experience
+    weight: 220
 
   - name: research
     url: research
