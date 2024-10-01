@@ -45,12 +45,12 @@ education:
     #   url: 'https://example.com'
 
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: 홍보국장
+    company_name: 제2대 컴퓨터인공지능학부 학생회
+    company_url: 'https://csai.jbnu.ac.kr/csai/index.do'
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+    date_start: 2023-11-20
+    date_end: 2024-12-26
     summary: |2-
       Responsibilities include:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
