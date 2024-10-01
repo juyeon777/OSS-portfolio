@@ -9,9 +9,15 @@ main:
     url: about
     weight: 100
 
+  - name: activity
+    url: activity
+    weight: 200
+
   - name: contact
     url: contact
     weight: 700
+
+
 
 
 
