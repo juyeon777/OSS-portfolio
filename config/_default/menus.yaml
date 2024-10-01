@@ -41,10 +41,6 @@ main:
     url: contact
     weight: 700
 
-
-
-
-
 #  - name: Blog
 #    url: blog/
 #    weight: 20
