@@ -56,17 +56,17 @@ work:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
+  - position: 홍보부원
+    company_name: 제1대 컴퓨터인공지능학부 학생회
+    company_url: 'https://csai.jbnu.ac.kr/csai/index.do'
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    date_start: 2023-03-01
+    date_end: 2023-12-22
+    # summary: |
+    #   Responsibilities include:
+    #   - Migrated infrastructure to a new data center
+    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 
 # Skills
