@@ -12,6 +12,10 @@ main:
     name: education
     url: education
     weight: 110
+  - parent: about
+    name: interest
+    url: interest
+    weight: 120
 
   - name: activity
     url: activity
@@ -32,7 +36,6 @@ main:
   - name: etc
     url: etc
     weight: 400
-
 
   - name: contact
     url: contact
