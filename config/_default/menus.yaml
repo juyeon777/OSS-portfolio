@@ -8,6 +8,10 @@ main:
   - name: about
     url: about
     weight: 100
+  - parent: about
+    name: education
+    url: education
+    weight: 110
 
   - name: activity
     url: activity
