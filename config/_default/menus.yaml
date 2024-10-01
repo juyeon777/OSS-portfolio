@@ -13,6 +13,11 @@ main:
     url: activity
     weight: 200
 
+  - name: research
+    url: research
+    weight: 300
+
+
   - name: contact
     url: contact
     weight: 700
