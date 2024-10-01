@@ -51,22 +51,13 @@ work:
     company_logo: ''
     date_start: 2023-11-20
     date_end: 2024-12-26
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    
   - position: Public Relations Officer
     company_name: The 1st Faculty of Computer and Artificial Intelligence Student Council
     company_url: 'https://csai.jbnu.ac.kr/csai/index.do'
     company_logo: ''
     date_start: 2023-03-01
     date_end: 2023-12-22
-    # summary: |
-    #   Responsibilities include:
-    #   - Migrated infrastructure to a new data center
-    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
-    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
