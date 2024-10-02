@@ -18,7 +18,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: 'Ju Yeon'
-    description: 'JBNU student'
+    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
@@ -34,6 +34,7 @@ marketing:
 header:
   navbar:
     enable: true
+    blox: 'navbar'
     align: c
     fixed_to_top: true
     show_theme_chooser: true
@@ -44,7 +45,7 @@ header:
     highlight_active_link: false
     logo:
       text: "Ju Yeon"
-      #filename: ""
+      #filename: "" 로고이미지 추가할것
 
 # # Site footer
 # footer:
@@ -56,7 +57,7 @@ header:
 #       share_alike: true
 #       allow_commercial: false
 
-# Localization
+# Localization 흠..왜있는거지
 locale:
   date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
@@ -72,3 +73,27 @@ features:
     enable: false
   privacy_pack:
     enable: false
+  repository:
+    url: 'https://github.com/juyeon777/OSS-portfolio.github.io'
+    branch: main
+  avatar:
+    gravatar: false
+    shape: circle
+  comment:
+    provider: ''
+    disqus:
+      shortname: ''
+      show_count: true
+    commento:
+      url: ''
+    giscus:
+      repo: ''
+      repo_id: ''
+      category: ''
+      category_id: ''
+  search:
+    provider: wowchemy
+  map:
+    provider: 'mapnik'
+    api_key: ''
+    zoom: 15
