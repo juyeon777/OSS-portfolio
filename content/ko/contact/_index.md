@@ -24,7 +24,7 @@ sections:
   - block: contact
     id: contact
     content:
-      title: Contact
+      title: Contact me
       text: 아래로 연락주세요!
       email: okk1829@gmail.com
       #phone: +82 010-2542-2638
