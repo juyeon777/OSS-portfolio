@@ -1,0 +1,227 @@
+{{/* Hugo Blox: Contact */}}
+{{/* Documentation: https://hugoblox.com/blocks/ */}}
+{{/* License: https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md */}}
+
+{{/* Initialise */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $autolink := default true $block.content.autolink }}
+{{ $data := $block.content }}
+
+{{ $form_provider := lower $block.content.form.provider | default "" }}
+
+{{ $use_netlify_form := eq $form_provider "netlify" }}
+{{ $use_formspree_form := eq $form_provider "formspree" }}
+{{ $use_form := or $use_netlify_form $use_formspree_form }}
+
+{{ $use_netlify_captcha := $block.content.form.netlify.captcha | default true }}
+{{ $use_formspree_captcha := $block.content.form.formspree.captcha | default false }}
+
+{{ $columns := $block.design.columns | default "2" }}
+<head>
+    <!-- Other head content -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+{{ if and $use_formspree_form $use_formspree_captcha }}
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+{{ end }}
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUmUeqZluQrNvv_QQ1HUXDvIg0lXmrqUc"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  function initMap() {
+    if ($('#map').length) {
+      let map_provider = $('#map-provider').val();
+      let lat = $('#map-lat').val();
+      let lng = $('#map-lng').val();
+      let zoom = parseInt($('#map-zoom').val());
+      let address = $('#map-dir').val();
+      let api_key = $('#map-api-key').val();
+      console.log(lat)
+      console.log(lng)
+      if (map_provider === 'google') {
+        let map = new GMaps({
+          div: '#map',
+          lat: lat,
+          lng: lng,
+          zoom: zoom,
+          zoomControl: true,
+          zoomControlOpt: {
+            style: 'SMALL',
+            position: 'TOP_LEFT',
+          },
+          streetViewControl: false,
+          mapTypeControl: false,
+          gestureHandling: 'cooperative',
+        });
+  
+        map.addMarker({
+          lat: lat,
+          lng: lng,
+          click: function () {
+            let url = 'https://www.google.com/maps/place/' + encodeURIComponent(address) + '/@' + lat + ',' + lng + '/';
+            window.open(url, '_blank');
+          },
+          title: address,
+        });
+      } else {
+        let map = new L.map('map').setView([lat, lng], zoom);
+        if (map_provider === 'mapbox' && api_key.length) {
+          L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+            attribution:
+              'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+            tileSize: 512,
+            maxZoom: 18,
+            zoomOffset: -1,
+            id: 'mapbox/streets-v11',
+            accessToken: api_key,
+          }).addTo(map);
+        } else {
+          L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+          }).addTo(map);
+        }
+        let marker = L.marker([lat, lng]).addTo(map);
+        let url = lat + ',' + lng + '#map=' + zoom + '/' + lat + '/' + lng + '&layers=N';
+        marker.bindPopup(
+          address +
+            '<p><a href="https://www.openstreetmap.org/directions?engine=osrm_car&route=' +
+            url +
+            '">Routing via OpenStreetMap</a></p>',
+        );
+      }
+    }
+  }
+  
+  document.addEventListener('DOMContentLoaded', function () {
+    // Initialise street maps if necessary.
+    initMap();
+  });
+</script>
+<style>
+  .center-list {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.center-list li {
+  margin-bottom: 1.0rem;
+  display: flex;
+  align-items: center; /* 수직 정렬 */
+  justify-content: center;
+  height:48px;
+}
+#map{
+  height: 350px;
+  width: 100%;
+}
+.d-none{
+  display: none;
+}
+</style>
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center">
+
+    <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+      {{ $block.content.title | markdownify | emojify }}
+    </div>
+  
+    {{ with $block.content.text }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+</div>
+<div class="flex flex-col max-w-prose mx-auto gap-3 justify-center">
+  <ul class="fa-ul center-list">
+
+    {{ if $data.email }}
+    <li>
+      <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
+      <span id="person-email">
+      {{- if $autolink }}<a href="mailto:{{ $data.email }}">{{ $data.email }}</a>{{ else }}{{ $data.email }}{{ end -}}
+      </span>
+    </li>
+    {{ end }}
+
+    {{ with $data.phone }}
+    <li>
+      <i class="fa-li fas fa-phone fa-2x" aria-hidden="true"></i>
+      <span id="person-telephone">
+      {{- if $autolink }}<a href="tel:{{ . }}">{{ . }}</a>{{ else }}{{ . }}{{ end -}}
+      </span>
+    </li>
+    {{ end }}
+
+    {{ $addr_formatted := "" }}{{/* Scoping for maps. */}}
+    {{ if $data.address.street | or $data.address.city | or $data.address.region | or $data.address.postcode | or $data.address.country }}
+      {{ $addr_formatted = partial "functions/get_address" (dict "root" . "address" $data.address) }}
+      <li>
+        <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
+        <span id="person-address">{{$addr_formatted}}</span>
+      </li>
+    {{ end }}
+
+    {{ with $data.directions }}
+    <li>
+      <i class="fa-li fas fa-compass fa-2x" aria-hidden="true"></i>
+      <span>{{ . | markdownify | emojify }}</span>
+    </li>
+    {{ end }}
+
+    {{ with $data.office_hours }}
+    <li>
+      <i class="fa-li fas fa-clock fa-2x" aria-hidden="true"></i>
+      <span>
+        {{- if not (reflect.IsSlice .)}}{{/* Support legacy string format. */}}
+          {{- . | markdownify | emojify -}}
+        {{else}}
+          {{- delimit . "<br>" | markdownify | emojify -}}
+        {{end -}}
+      </span>
+    </li>
+    {{ end }}
+
+    {{ with $data.appointment_url }}
+    <li>
+      <i class="fa-li fas fa-calendar-check fa-2x" aria-hidden="true"></i>
+      <a href="{{ . }}" target="_blank" rel="noopener">{{ i18n "book_appointment" | default "Book an appointment" }}</a>
+    </li>
+    {{ end }}
+
+    {{/* Contact links. */}}
+    {{ range $data.contact_links }}
+    {{ $pack := or .icon_pack "fas" }}
+    {{ $pack_prefix := $pack }}
+    {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+      {{ $pack_prefix = "fa" }}
+    {{ end }}
+    {{ $link := .link }}
+    {{ $scheme := (urls.Parse $link).Scheme }}
+    {{ $target := "" }}
+    {{ if not $scheme }}
+      {{ $link = .link | relLangURL }}
+    {{ else if in (slice "http" "https") $scheme }}
+      {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+    {{ end }}
+    <li>
+      <i class="fa-li {{ $pack }} {{ $pack_prefix }}-{{ .icon }} fa-2x" aria-hidden="true"></i>
+      <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>{{.name|markdownify|emojify|safeHTML}}</a>
+    </li>
+    {{ end }}
+
+  </ul>
+</div>
+  {{ if and site.Params.features.map.provider $data.coordinates.latitude }}
+  <div class="d-none">
+    <input id="map-provider" value="{{ lower site.Params.features.map.provider }}">
+    <input id="map-lat" value="{{ $data.coordinates.latitude }}">
+    <input id="map-lng" value="{{ $data.coordinates.longitude }}">
+    <input id="map-dir" value="{{ $addr_formatted }}">
+    <input id="map-zoom" value="{{ site.Params.features.map.zoom | default "15" }}">
+    <input id="map-api-key" value="{{ site.Params.features.map.api_key }}">
+  </div>
+  <div id="map" ></div>
+  {{ end }}
+
+</div>
