@@ -39,7 +39,7 @@ sections:
         latitude: "35.846038"
         longitude: "127.134457"
         office_hours:
-        - "월-금: 09:00 - 17:00"
+        - '월-금: 09:00 - 17:00'
       directions:
       # Automatically link email and phone or display as text?
       autolink: true
