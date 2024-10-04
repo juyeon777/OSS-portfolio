@@ -33,8 +33,6 @@ profiles:
   - icon: brands/github
     url: https://github.com/juyeon777
 
-#학위 정보 숨기기
-hide_education: true
 education:
   - area: IT지능정보공학과
     institution: 전북대학교
