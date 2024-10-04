@@ -8,14 +8,6 @@ main:
   - name: about
     url: /
     weight: 100
-  - parent: about
-    name: education
-    url: /#education
-    weight: 10
-  - parent: about
-    name: interest
-    url: /#interest
-    weight: 120
 
   - name: activity
     url: activity
@@ -27,7 +19,7 @@ main:
   - parent: activity
     name: experience
     url: /#experience
-    weight: 20
+    weight: 220
 
   - name: research
     url: research
