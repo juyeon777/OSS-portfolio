@@ -18,8 +18,8 @@ main:
     weight: 210
   - parent: activity
     name: experience
-    url: /#experience
-    weight: 220
+    url: experience/
+    weight: 20
 
   - name: research
     url: research
