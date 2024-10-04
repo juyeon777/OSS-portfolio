@@ -11,7 +11,7 @@ main:
   - parent: about
     name: education
     url: /#education
-    weight: 110
+    weight: 10
   - parent: about
     name: interest
     url: /#interest
