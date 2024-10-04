@@ -143,14 +143,15 @@
     <li>
       <i class="fa-li fas fa-clock fa-2x" aria-hidden="true"></i>
       <span>
-        {{- if not (reflect.IsSlice .)}}{{/* Support legacy string format. */}
+        {{- if not (reflect.IsSlice .)}}{{/* Support legacy string format. */}}
           {{- . | markdownify | emojify -}}
         {{else}}
           {{- delimit . "<br>" | markdownify | emojify -}}
         {{end -}}
       </span>
     </li>
-    {{ end }}
+  {{ end }}
+   
     
 
     {{ if $data.email }}
