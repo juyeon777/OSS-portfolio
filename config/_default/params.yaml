@@ -5,12 +5,8 @@
 
 # Appearance
 appearance:
-  #mode: system
-  #color: blue
-  theme_night: minimal
-  theme_day: minimal
-  font: native
-  font_size: L
+  mode: system
+  color: ''
 
 # SEO
 marketing:
@@ -35,14 +31,14 @@ header:
   navbar:
     enable: true
     blox: 'navbar'
-    align: c
     fixed_to_top: true
+    #align: c
     show_theme_chooser: true
-    show_logo: true
-    show_language: true
-    show_day_night: true
+    #show_logo: true
+    #show_language: true
+    #show_day_night: true
     show_search: true
-    highlight_active_link: false
+    #highlight_active_link: false
     logo:
       text: "Ju Yeon"
       #filename: "" 로고이미지 추가할것
