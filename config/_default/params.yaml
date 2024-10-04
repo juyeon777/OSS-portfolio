@@ -70,6 +70,7 @@ features:
     enable: false
   privacy_pack:
     enable: false
+  ogImage: 'assets/media/logo.jpg'
   repository:
     url: 'https://github.com/juyeon777/OSS-portfolio'
     branch: main
