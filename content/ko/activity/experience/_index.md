@@ -1,5 +1,5 @@
 ---
-title: 'Experience'
+title: 'experience'
 type: landing
 
 design:
