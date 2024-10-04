@@ -140,17 +140,14 @@
 
     #운영시간 추가
     {{ with $data.office_hours }}
-    <li>
-      <i class="fa-li fas fa-clock fa-2x" aria-hidden="true"></i>
-      <span>
-        {{- if not (reflect.IsSlice .)}}{{/* Support legacy string format. */}}
-          {{- . | markdownify | emojify -}}
-        {{else}}
-          {{- delimit . "<br>" | markdownify | emojify -}}
-        {{end -}}
-      </span>
-    </li>
-  {{ end }}
+  <li>
+    <i class="fa-li fas fa-clock fa-2x" aria-hidden="true"></i>
+    <span>
+      {{ . | markdownify | emojify }}
+    </span>
+  </li>
+{{ end }}
+
    
     
 
