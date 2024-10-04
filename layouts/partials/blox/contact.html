@@ -189,19 +189,6 @@
     </li>
     {{ end }}
 
-    {{ with $data.office_hours }}
-    <li>
-      <i class="fa-li fas fa-clock fa-2x" aria-hidden="true"></i>
-      <span>
-        {{- if not (reflect.IsSlice .)}}{{/* Support legacy string format. */}}
-          {{- . | markdownify | emojify -}}
-        {{else}}
-          {{- delimit . "<br>" | markdownify | emojify -}}
-        {{end -}}
-      </span>
-    </li>
-    {{ end }}
-
     {{ with $data.appointment_url }}
     <li>
       <i class="fa-li fas fa-calendar-check fa-2x" aria-hidden="true"></i>
