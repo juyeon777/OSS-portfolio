@@ -24,7 +24,7 @@ sections:
   - block: contact
     id: contact
     content:
-      title: Contact me
+      title: Contact Information
       text: 아래로 연락주세요!
       email: okk1829@gmail.com
       #phone: +82 010-2542-2638
@@ -38,6 +38,8 @@ sections:
       coordinates:
         latitude: "35.846038"
         longitude: "127.134457"
+      office_hours:
+        - '월-금: 09:00 - 17:00' #운영시간 추가
       directions:
       # Automatically link email and phone or display as text?
       autolink: true
