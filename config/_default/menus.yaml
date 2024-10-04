@@ -41,9 +41,3 @@ main:
     url: contact
     weight: 700
 
-#  - name: Blog
-#    url: blog/
-#    weight: 20
-#  - name: Uses
-#    url: uses/
-#    weight: 30
