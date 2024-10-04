@@ -10,7 +10,7 @@ main:
     weight: 100
   - parent: about
     name: education
-    url: /#education
+    url: education/
     weight: 10
   - parent: about
     name: interest
