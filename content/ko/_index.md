@@ -26,7 +26,7 @@ sections:
         # Customize the style of your biography text
         style: 'text-align: justify; font-size: 0.8em;'
   - block: experience
-    id: education
+    id: experience
     content:
       username: admin
     design:
