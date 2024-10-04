@@ -6,15 +6,15 @@
 main:
 
   - name: about
-    url: about
+    url: /
     weight: 100
   - parent: about
     name: education
-    url: education
+    url: /#education
     weight: 110
   - parent: about
     name: interest
-    url: interest
+    url: /#interest
     weight: 120
 
   - name: activity
