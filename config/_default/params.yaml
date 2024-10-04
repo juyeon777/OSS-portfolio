@@ -41,6 +41,7 @@ header:
     #highlight_active_link: false
     logo:
       text: "Ju Yeon"
+      filename: "logo.jpg"
       #filename: "" 로고이미지 추가할것
 
 # # Site footer
