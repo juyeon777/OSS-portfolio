@@ -6,10 +6,12 @@ layout: "interest"
 ## 내가 흥미있는 것들
 
 ### 마루는 강쥐
-![Shopping](char1.jpg)
-![Shopping](char2.jpg)
-![Shopping](char3.jpg)
-![Shopping](char4.jpg)
+<div class="image-gallery">
+    <img src="char1.jpg" alt="Shopping">
+    <img src="char2.jpg" alt="Shopping">
+    <img src="char3.jpg" alt="Shopping">
+    <img src="char4.jpg" alt="Shopping">
+</div>
 
 - "마루는 강쥐"는 네이버 웹툰에서 인기있는 작품 중 하나로, 강아지인 마루가 어느 날 사람이 되어, 마루의 주인과 주변의 일상적인 이야기를 담고 있는 내용입니다.
 - 포트폴리오 사이트 로고에 있는 이미지도 마루입니다!!
