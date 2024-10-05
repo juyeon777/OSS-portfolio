@@ -17,11 +17,11 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Student
+role: 대학생
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Jeonbuk Univ.
+  - name: 전북대학교
     url: [https://csai.jbnu.ac.kr/csai/index.do]
 
 # Social network links
@@ -38,8 +38,8 @@ education:
     institution: 전북대학교
     date_start: 2022-03-01
     date_end: 2026-02-28
-    # summary: |
-    #   Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+     summary: |
+       현재 전북대학교 IT지능정보공학과에 재학 중입니다.
     # button:
     #   text: 'Read Thesis'
     #   url: 'https://example.com'
