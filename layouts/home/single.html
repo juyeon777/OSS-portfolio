@@ -1,0 +1,5 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ partial "slider.html" . }} <!-- 슬라이더를 포함하는 부분 -->
+{{ .Content }} <!-- 여기서 index.md의 내용을 포함 -->
+{{ end }}
