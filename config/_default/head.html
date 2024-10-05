@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }}</title>
+
+    <!-- Bootstrap CSS 추가 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- 추가적인 CSS 파일 (필요시) -->
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}assets/css/style.css">
+
+    {{ partial "head.html" . }}
+</head>
+<body>
+    {{ partial "header.html" . }}
