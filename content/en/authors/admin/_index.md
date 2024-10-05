@@ -122,4 +122,4 @@ languages:
 ---
 
 Hello. I am a student in the Department of IT Intelligence and Information Engineering at Jeonbuk National University and an undergraduate researcher in the Computer Vision Lab.
-
+I'm currently interested in back-end, front-end, and databases. I have just discovered a field that I am interested in, and I am studying it step by step.
