@@ -18,10 +18,12 @@ main:
   - name: interest
     url: etc/interest
     parent: etc
+    weight: 420
 
   - name: music
     url: etc/music
     parent: etc
+    weight: 440
 
   - name: contact
     url: contact
