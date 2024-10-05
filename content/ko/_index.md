@@ -42,5 +42,14 @@ sections:
     content:
       title: Languages
       username: admin
+  - block: interests
+    content:
+      title: Interests
+      username: admin
+      items:
+      - name: Back-end
+      - name: Front-end
+      - name: Database
+
 
 ---
