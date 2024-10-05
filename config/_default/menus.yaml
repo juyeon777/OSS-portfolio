@@ -1,7 +1,7 @@
 main:
   - name: home
     url: /
-    weight: 100
+    weight: 10
 
   - name: certificate
     url: certificate
@@ -14,6 +14,7 @@ main:
   - name: etc
     url: etc
     weight: 400
+    hasChildren: true
 
   - name: interest
     url: etc/interest
