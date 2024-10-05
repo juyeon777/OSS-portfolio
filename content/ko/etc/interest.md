@@ -1,6 +1,7 @@
 ---
 title: ""
 layout: "interest"
+reading_time: false
 ---
 
 ## 내가 흥미있는 것들

@@ -1,7 +1,7 @@
 ---
 title: "추천 음악"
 layout: "music"
-
+reading_time: false
 ---
 
 ## 내가 추천하는 음악들

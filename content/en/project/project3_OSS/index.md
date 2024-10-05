@@ -2,6 +2,7 @@
 title: "Create a personal page introduction (portfolio) website with Github Pages"
 tags: ["project"]
 date: 2024-09-19
+reading_time: false
 ---
 
 ![Litmus Project Image](project3.jpg)
