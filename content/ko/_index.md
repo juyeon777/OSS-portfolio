@@ -38,7 +38,6 @@ sections:
     content:
       title: Skills
       username: admin
-
   - block: languages
     content:
       title: Languages
