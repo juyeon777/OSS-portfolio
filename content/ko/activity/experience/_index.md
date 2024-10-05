@@ -2,7 +2,7 @@
 # Organizations/Affiliations to display in Biography blox
 organizations:
   - name: 전북대학교
-    url: [https://csai.jbnu.ac.kr/csai/index.do]
+    url: https://csai.jbnu.ac.kr/csai/index.do
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -45,4 +45,4 @@ work:
     company_logo: ''
     date_start: 2023-03-01
     date_end: 2023-12-22
-    ---
+---
