@@ -8,4 +8,4 @@ date: 2024-09-19
 
 - **period:** 2024-09-19 ~ 2024-10-06
 - This is a personal portfolio website project that I did in the OSS course for the second semester of 2024.
-- [포트폴리오 보러가기](https://juyeon777.github.io/OSS-portfolio/)
+- [Go to Portfolio](https://juyeon777.github.io/OSS-portfolio/)
