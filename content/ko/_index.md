@@ -43,9 +43,4 @@ sections:
       title: Languages
       username: admin
 
-  - block: custom
-    content:
-      title: slider
-    design:
-      custom_block: slider
 ---

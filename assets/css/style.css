@@ -1,9 +1,0 @@
-.slide h2 {
-    position: absolute; /* 슬라이드 내에서 위치 설정 */
-    bottom: 20px;      /* 하단 여백 */
-    left: 20px;        /* 왼쪽 여백 */
-    color: white;      /* 텍스트 색상 */
-    background-color: rgba(0, 0, 0, 0.5); /* 반투명 배경 */
-    padding: 10px;     /* 내부 여백 */
-    border-radius: 5px; /* 모서리 둥글게 */
-}
