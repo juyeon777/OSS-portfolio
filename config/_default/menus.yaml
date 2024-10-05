@@ -19,13 +19,13 @@ main:
 
   - name: etc
     url: etc
-    weight: 400
+    weight: 3
   - parent: etc
     name: interest
-    weight: 410
+    weight: 1
   - parent: etc
-    name: recommendation
-    weight: 420
+    name: music
+    weight: 2
 
   - name: contact
     url: contact
