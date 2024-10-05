@@ -4,8 +4,8 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Ju Yeon portfolio # Website name
-baseURL: 'https://juyeon777.github.io/OSS-portfolio/' # Website URL
-#baseURL을 https://juyeon.com/으로 바꿔야하나?
+baseURL: 'https://juyeon777.github.io/' # Website URL
+
 
 ############################
 ## LANGUAGE
