@@ -1,29 +1,32 @@
----
-title: "자격증"
-layout: "certifications"
-reading_time: false
----
+<div class="certificate-container">
 
-## 내가 취득한 자격증
+  <div class="certificate-card">
+    <div class="certificate-title">네트워크 관리사 2급 필기</div>
+    <div class="certificate-details">
+      <strong>발급 기관</strong>: 한국정보통신자격협회<br>
+      <strong>응시일</strong>: 2024-05-19<br>
+      <strong>유효일</strong>: 2026-05-21<br>
+      <strong>자격증 설명</strong>: 이 자격증은 네트워크 분야에서 중요한 역할을 하며, 네트워크 관리에 대한 전문성을 인증합니다.
+    </div>
+    <a href="license1.jpg" class="certificate-link">증서 보기</a>
+  </div>
 
-### 네트워크 관리사 2급 필기
-- **발급 기관**: [한국정보통신자격협회]
-- **응시일**: 2024-05-19
-- **유효일**: 2026-05-21
-- **자격증 설명**: 이 자격증은 네트워크 분야에서 중요한 역할을 하며, 네트워크 관리에 대한 전문성을 인증합니다.
-- [증서 보기](license1.jpg)
+  <div class="certificate-card">
+    <div class="certificate-title">리눅스 마스터 2급</div>
+    <div class="certificate-details">
+      <strong>발급 기관</strong>: KAIT 정보통신기술자격검정<br>
+      <strong>취득 날짜</strong>: 2024-10-04<br>
+      <strong>자격증 설명</strong>: 이 자격증은 리눅스 시스템 관리 분야에서 중요한 역할을 하며, 리눅스 환경에 대한 전문성을 인증합니다.
+    </div>
+    <a href="license2.jpg" class="certificate-link">증서 보기</a>
+  </div>
 
----
+  <div class="certificate-card">
+    <div class="certificate-title">한국사능력검정시험 심화</div>
+    <div class="certificate-details">
+      <strong>발급 기관</strong>: 국사편찬위원회<br>
+      <strong>응시 예정일</strong>: 2024-10-20<br>
+    </div>
+  </div>
 
-### 리눅스 마스터 2급
-- **발급 기관**: [KAIT 정보통신기술자격검정]
-- **취득 날짜**: 2024-10-04
-- **자격증 설명**: 이 자격증은 리눅스 시스템 관리 분야에서 중요한 역할을 하며, 리눅스 환경에 대한 전문성을 인증합니다.
-- [증서 보기](license2.jpg)
-
----
-
-## 현재 준비 중인 자격증
-### 한국사능력검정시험 심화
-- **발급 기관**: [국사편찬위원회]
-- **응시 예정일**: 2024-10-20
+</div>
