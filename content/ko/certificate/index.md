@@ -1,7 +1,7 @@
 ---
 title: "자격증"
 layout: "certifications"
-
+reading_time: false
 ---
 
 ## 내가 취득한 자격증
