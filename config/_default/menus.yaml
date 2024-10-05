@@ -14,7 +14,7 @@ main:
     weight: 200
   - parent: activity
     name: experience
-    url: activity/experience
+    url: /#experience
     weight: 200
 
   - name: project

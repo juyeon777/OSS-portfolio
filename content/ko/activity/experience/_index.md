@@ -1,9 +1,19 @@
 ---
-title: "학위 정보"
+title: 'Experience'
+type: landing
+
+design:
+  spacing: '2rem'
+
+#Page sections
+sections:
+  - block: resume-experience
+    content:
+      username: admin
+    design:
+      #Hugo date format
+      date_format: 'January 2006'
+      #Education or Experience section first?
+      is_education_first: false
+  
 ---
-- **학위**: 학사
-- **전공**: IT지능정보공학과
-- **학교**: 전북대학교
-- **입학일**: 2022-03-01
-- **졸업예정일**: 2026-02-28
-- **설명**: 현재 전북대학교 IT지능정보공학과에 재학 중입니다.
