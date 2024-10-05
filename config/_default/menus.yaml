@@ -14,8 +14,8 @@ main:
     weight: 200
   - parent: activity
     name: experience
-    url: experience/
-    weight: 220
+    url: experience
+    weight: 200
 
   - name: project
     url: project
