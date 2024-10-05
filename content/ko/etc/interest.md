@@ -11,16 +11,15 @@ layout: "interest"
 - 최근에 팝업스토어를 다녀올 만큼 좋아하는 캐릭터입니다!
 
 ### 패션
-![fashion](photo2.jpg)
+![fashion](sarah-dorweiler-fr0J5-GIVyg-unsplash.jpg)
 - 평소에 꾸미는 걸 좋아하는 편입니다.
 - 옷 뿐만 아니라 화장품 색조에도 관심이 높은 편입니다.
 
 ### 사진 찍기 
-![Photography](photo3.jpg)
+![Photography](samsung-memory-DNXjLfVy2Hc-unsplash.jpg)
 - 평소에 사진 찍는 걸 좋아하는 편입니다.
 - 아이폰6 공기계를 자주 애용합니다!
 
 ### 맛있는 음식 먹기
-![food](food.jpg)
+![food](jamie-street-tb5A-QTI6xg-unsplash.jpg)
 - 먹는 걸 좋아합니다!
-- 요새 특히 전북대 쌈센을 자주 먹습니다. 페퍼로니 드셔보세요!
