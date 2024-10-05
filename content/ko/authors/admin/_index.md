@@ -126,20 +126,3 @@ languages:
 
 안녕하세요. 저는 전북대학교 IT지능정보공학과 학생이자,
 컴퓨터비전 연구실 학부 연구생입니다.
-
-
-#### 첫 번째 이미지
-[![첫 번째 이미지](assets/media/background.jpg)](https://juyeon777.github.io/OSS-portfolio/project/)
-project
-
----
-
-#### 첫 번째 이미지
-[![첫 번째 이미지](assets/media/background.jpg)](https://juyeon777.github.io/OSS-portfolio/project/)
-project
-
----
-
-#### 첫 번째 이미지
-[![첫 번째 이미지](assets/media/background.jpg)](https://juyeon777.github.io/OSS-portfolio/project/)
-project
