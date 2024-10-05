@@ -1,0 +1,29 @@
+{{ define "main" }}
+<div>
+  <h1>{{ .Title }}</h1>
+  <div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 20px;">
+    {{ range .Pages }}
+    <div style="border: 1px solid #ddd; padding: 15px; width: 30%; min-width: 250px; text-align: center;">
+      <h2>{{ .Title }}</h2>
+      <!-- 날짜 -->
+      <p><strong>진행 날짜:</strong> {{ .Params.date }}</p>
+      
+      <!-- 개요 -->
+      <p>{{ .Params.description }}</p>
+      
+      <!-- 이미지 -->
+      {{ with .Params.image }}
+      <img src="{{ . }}" alt="{{ .Title }}" style="max-width: 100%; height: auto; margin-top: 10px;">
+      {{ end }}
+      
+      <!-- 링크가 있을 경우 추가 -->
+      {{ with .Params.link }}
+      <p style="margin-top: 15px;">
+        <a href="{{ . }}" target="_blank">프로젝트 링크</a>
+      </p>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
