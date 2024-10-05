@@ -9,13 +9,9 @@ main:
     url: /
     weight: 100
 
-  - name: activity
-    url: activity
-    weight: 200
-  - parent: activity
-    name: certificate
+  - name: certificate
     url: certificate
-    weight: 220
+    weight: 200
 
   - name: project
     url: project
