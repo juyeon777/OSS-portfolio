@@ -24,6 +24,12 @@ main:
   - name: etc
     url: etc
     weight: 400
+  - parent: etc
+    name: interest
+    weight: 410
+  - parent: etc
+    name: recommendation
+    weight: 420
 
   - name: contact
     url: contact
