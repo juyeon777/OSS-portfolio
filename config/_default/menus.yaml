@@ -5,8 +5,8 @@
 
 main:
 
-  - name: about
-    url: about
+  - name: home
+    url: /
     weight: 100
 
   - name: activity
