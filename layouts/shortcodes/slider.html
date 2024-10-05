@@ -3,24 +3,24 @@
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button> <!-- 새로운 인디케이터 추가 -->
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
     </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="{{ .Site.BaseURL }}assets/media/image_slider/background.jpg" class="d-block w-100" alt="New Slide">
-            <div class="overlay">저의 관심사입니다.</div> 
+            <img src="{{ .Get "image1" }}" class="d-block w-100" alt="New Slide">
+            <div class="overlay">{{ .Get "text1" }}</div> 
         </div>
         <div class="carousel-item">
-            <img src="{{ .Site.BaseURL }}assets/media/image_slider/backend.jpg" class="d-block w-100" alt="First slide">
-            <div class="overlay">Back-end</div>
+            <img src="{{ .Get "image2" }}" class="d-block w-100" alt="First slide">
+            <div class="overlay">{{ .Get "text2" }}</div>
         </div>
         <div class="carousel-item">
-            <img src="{{ .Site.BaseURL }}assets/media/image_slider/frontend.jpg" class="d-block w-100" alt="Second slide">
-            <div class="overlay">Front-end</div>
+            <img src="{{ .Get "image3" }}" class="d-block w-100" alt="Second slide">
+            <div class="overlay">{{ .Get "text3" }}</div>
         </div>
         <div class="carousel-item">
-            <img src="{{ .Site.BaseURL }}assets/media/image_slider/database.jpg" class="d-block w-100" alt="Third slide">
-            <div class="overlay">DataBase</div>
+            <img src="{{ .Get "image4" }}" class="d-block w-100" alt="Third slide">
+            <div class="overlay">{{ .Get "text4" }}</div>
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
