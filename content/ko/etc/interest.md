@@ -7,10 +7,10 @@ layout: "interest"
 
 ### 마루는 강쥐
 <div class="image-gallery">
-    <img src="/images/char1.jpg" alt="Shopping">
-    <img src="/images/char2.jpg" alt="Shopping">
-    <img src="/images/char3.jpg" alt="Shopping">
-    <img src="/images/char4.jpg" alt="Shopping">
+    <img src="/media/char1.jpg" alt="Shopping">
+    <img src="/media/char2.jpg" alt="Shopping">
+    <img src="/media/char3.jpg" alt="Shopping">
+    <img src="/media/char4.jpg" alt="Shopping">
 </div>
 
 
