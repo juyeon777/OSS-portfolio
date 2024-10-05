@@ -1,7 +1,0 @@
-h2 {
-    text-align: center; /* 제목 중앙 정렬 */
-    margin: 10px 0; /* 제목과 이미지 간격 조정 */
-    color: #fff; /* 제목 색상 (원하는 색상으로 변경 가능) */
-    font-size: 1.5em; /* 제목 크기 조정 */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* 제목에 그림자 추가 */
-}
