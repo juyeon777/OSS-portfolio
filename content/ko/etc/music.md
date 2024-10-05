@@ -1,22 +1,14 @@
 ---
-title: "Interests"
-layout: "interest"
+title: "추천 음악"
+layout: "music"
 ---
 
-## My Interests
+## 내가 추천하는 음악들
 
-### Shopping
-![Shopping](image1.jpg)
-I love exploring new stores and finding unique items!
+### 별 - Hion
+- **설명**: 최근에 친구를 통해 알게된 노래인데, 딱 지금 듣기 좋은 노래입니다! 
+- **[유튜브 링크](https://youtu.be/odBj6onwDuY?si=qVxqBUzqtIqcC_yc)**
 
-### Personal Color Analysis
-![Personal Color Analysis](image2.jpg)
-Discovering my best colors is so much fun!
-
-### Photography
-![Photography](image3.jpg)
-Capturing moments through my lens brings me joy!
-
-### Enjoying Delicious Food
-![Delicious Food](image4.jpg)
-I enjoy trying out new recipes and visiting local restaurants!
+### 나랑 같이 걸을래 - 적재
+- **설명**: 가을은 적재의 계절입니다.
+- **[유튜브 링크](https://youtu.be/cn8gCkw6H5A?si=x9VSZezA4GOZ7PXT)**
