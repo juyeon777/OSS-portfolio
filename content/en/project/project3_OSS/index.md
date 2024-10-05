@@ -1,5 +1,5 @@
 ---
-title: "Github Pages로 개인 페이지 소개 (포폴) 웹사이트 만들기"
+title: "Create a personal page introduction (portfolio) website with Github Pages"
 tags: ["project"]
 date: 2024-09-19
 ---
