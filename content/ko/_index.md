@@ -24,10 +24,9 @@ sections:
         filename: abstract-textured-background.jpg
       biography:
         # Customize the style of your biography text
-        style: "text-align: justify; font-size: 0.8em;"
-        
+        style: 'text-align: justify; font-size: 0.8em;'
   - block: experience
-    id: experience
+    id: education
     content:
       username: admin
     design:
@@ -35,7 +34,6 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: false
-
   - block: skills
     content:
       title: Skills
