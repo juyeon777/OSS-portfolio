@@ -1,6 +1,7 @@
 ---
 title: "추천 음악"
 layout: "music"
+image: "alphacolor-66JMudIjDTw-unsplash.jpg"
 ---
 
 ## 내가 추천하는 음악들

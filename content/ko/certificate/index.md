@@ -1,6 +1,7 @@
 ---
 title: "자격증"
 layout: "certifications"
+image: "aaron-burden-QJDzYT_K8Xg-unsplash.jpg"
 ---
 
 ## 내가 취득한 자격증
