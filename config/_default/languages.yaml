@@ -3,14 +3,14 @@
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
 # Default language
- ko:
-   languageCode: ko
-   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-   contentDir: content/ko
+ko:
+  languageCode: ko
+  contentDir: content/ko
 
 en:
   languageCode: en-us
   contentDir: content/en
+
 #en:
 #  languageCode: en-us
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
