@@ -5,19 +5,22 @@ layout: "interest"
 
 ## 내가 흥미있는 것들
 ### 마루는 강쥐
-![캐릭터](char1.jpg)
+![char](char1.jpg)
 - "마루는 강쥐"는 네이버 웹툰에서 인기있는 작품 중 하나로, 강아지인 마루가 어느 날 사람이 되어, 마루의 주인과 주변의 일상적인 이야기를 담고 있는 내용입니다.
 - 포트폴리오 사이트 로고에 있는 이미지도 마루입니다!!
 - 최근에 팝업스토어를 다녀올 만큼 좋아하는 캐릭터입니다!
 
 ### 패션
-![Personal Color Analysis](image2.jpg)
-Discovering my best colors is so much fun!
+![fashion](photo2.jpg)
+- 평소에 꾸미는 걸 좋아하는 편입니다.
+- 옷 뿐만 아니라 화장품 색조에도 관심이 높은 편입니다.
 
 ### 사진 찍기 
-![Photography](image3.jpg)
-Capturing moments through my lens brings me joy!
+![Photography](photo3.jpg)
+- 평소에 사진 찍는 걸 좋아하는 편입니다.
+- 아이폰6 공기계를 자주 애용합니다!
 
 ### 맛있는 음식 먹기
-![Delicious Food](image4.jpg)
-I enjoy trying out new recipes and visiting local restaurants!
+![food](food.jpg)
+- 먹는 걸 좋아합니다!
+- 요새 특히 전북대 쌈센을 자주 먹습니다. 페퍼로니 드셔보세요!
