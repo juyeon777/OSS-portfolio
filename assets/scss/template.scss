@@ -131,6 +131,11 @@ body {
     transform: scale(1.05); 
   }
   .justified-text {
-    text-align: justify;
+    text-align: justify; /* 텍스트를 양쪽 정렬 */
+    margin: 20px; /* 여백 추가 */
+    background-color: #fff; /* 배경색 */
+    padding: 20px; /* 패딩 추가 */
+    border-radius: 8px; /* 모서리 둥글게 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
   }
   
