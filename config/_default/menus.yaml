@@ -16,8 +16,8 @@ main:
     weight: 400
     hasChildren: true
 
-  - name: interest
-    url: etc/interest
+  - name: favorite
+    url: etc/favorite
     parent: etc
     weight: 420
 
