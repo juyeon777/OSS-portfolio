@@ -42,15 +42,15 @@
     <div class="carousel-inner">
         <div class="carousel-item active">
             <img src="image2.jpg" class="d-block w-100" alt="First slide">
-            <div class="overlay">Network Slicing</div>
+            <div class="overlay">Back-end</div>
         </div>
         <div class="carousel-item">
             <img src="image3.jpg" class="d-block w-100" alt="Second slide">
-            <div class="overlay">Mobile Network</div>
+            <div class="overlay">Front-end</div>
         </div>
         <div class="carousel-item">
             <img src="image4.jpg" class="d-block w-100" alt="Third slide">
-            <div class="overlay">LDPC</div>
+            <div class="overlay">database</div>
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
