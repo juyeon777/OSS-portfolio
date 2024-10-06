@@ -74,17 +74,9 @@ skills:
   - name: Technical Skills
     items:
       - name: Python
-        #description: ''
-        #percent: 80
-        icon: devicon/python
       - name: C
-        #description: ''
-        #percent: 100
-        icon: devicon/c
       - name: C++
-        #description: ''
-        #percent: 40
-        #icon: devicon/c++
+      - name: Linux
 
 languages:
   - name: Korean
