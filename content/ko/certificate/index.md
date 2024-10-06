@@ -4,6 +4,8 @@ layout: "certifications"
 reading_time: false
 ---
 
+<div class="justified-text">
+
 ## 내가 취득한 자격증
 
 ### 네트워크 관리사 2급 필기
@@ -27,3 +29,5 @@ reading_time: false
 ### 한국사능력검정시험 심화
 - **발급 기관**: [국사편찬위원회]
 - **응시 예정일**: 2024-10-20
+
+</div>
